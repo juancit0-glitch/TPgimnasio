@@ -13,7 +13,7 @@ public abstract class UsuarioBase
     public bool Activo { get; private set; }
 
     //cada subclase define sus permisos y su rol 
-    public abstract string rol { get; }
+    public abstract string Rol { get; }
     public abstract bool PuedeDarDeBajaSocios { get; }
     public abstract bool PuedeModificarPrecios { get; }
     public abstract bool PuedeGestionarUsuarios { get; }
